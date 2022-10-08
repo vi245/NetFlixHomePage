@@ -1,0 +1,1028 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    overflow-x:hidden;
+}
+.flex{
+    display: flex;
+}
+.direction-column{
+    flex-direction: column;
+}
+.mainCard{
+    background-color: transparent;
+    border-bottom: 10px solid rgb(23, 23, 23);
+    width:100%;
+}
+.mainContent{
+    background-color: transparent;
+    align-items: center;
+    height:25rem;
+    display: flex;
+    margin: auto;
+    color: white;
+    width:100%;
+   padding: 0;  
+  
+}
+
+.mainContent h1:nth-child(1)
+{
+  font-size:4rem;
+}
+.mainContent h1:nth-child(2)
+{
+    font-size:4rem;
+}
+.mainContent h5
+{
+  font-size:2rem;
+  margin-top:1rem;
+  font-weight: lighter;
+}
+.mainContent p
+{
+  font-size:1rem;
+  margin:1.3rem;
+}
+
+.card1{
+    height:45rem;
+    background-image:radial-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.75)),url('./Assets/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card2{
+   min-height:35rem;
+   max-height: 70rem;
+   height: 35rem;
+    background-color:black;
+}
+.mcard2{
+    height: inherit;
+  
+  border-bottom: 10px solid rgb(23, 23, 23);
+}
+.icard2{
+    margin: auto;
+    background-color:black;
+    max-width:1480px;
+    align-items: center;
+    min-width:100px;
+    padding:0 80px;
+}
+.card2 h4{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    text-decoration: underline;
+}
+.contentCard2{
+   justify-content: center;
+    height: 25rem;
+    color: white;
+    padding:10px 100px;
+    background-color: transparent;
+}
+.contentCard2 h1{
+    font-size:3rem;
+}
+.contentCard2 h2{
+    font-size:2rem;
+    font-stretch: expanded;
+    text-align:left ;
+    font-weight: lighter;
+}
+.imageCard2{
+    height:25rem;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.innerCard2{
+    margin: auto;
+    height:25rem;
+    justify-content: center;
+     background-color: transparent;
+     position: relative;
+}
+.innerCard2 img{
+    z-index: 1;
+}
+
+.innerCard2 video{
+    position: absolute;
+    width:80%;
+    height: inherit;
+}
+
+.card4 img{
+    z-index: 1;
+    height:20rem;
+    margin-top:2rem;
+}
+
+.card4 video{
+    position: absolute;
+    width:63%;
+    height:inherit ;
+    margin-top:-3.8rem;
+}
+.box{
+    position: absolute;
+    width:20rem;
+    top:16rem;
+    padding:9px;
+    border-radius:0.8rem;
+    justify-content: space-around;
+    z-index: 1;
+    background-color:black;
+    height: 6rem;
+    border: 1px solid gray;
+}
+.boxText{
+    justify-content: center;
+    padding: 5px;
+}
+.boxText h4{
+    color:white;
+}
+.boxText h5{
+    color: blue;
+    font-weight: lighter;
+}
+.icon
+{   
+    margin-top: 2rem;
+    width: 2rem;
+    height:2rem;
+}
+
+.card3{
+    min-height: 35rem;
+   max-height: 70rem;
+   height: 35rem;
+    background-color: black;
+}
+.card4{
+    min-height:35rem;
+   max-height: 70rem;
+   height:35rem;
+    background-color: black;
+}
+.card5{
+    min-height:35rem;
+   max-height: 70rem;
+   height: 35rem;
+    background-color: black;
+}
+.card6{
+    height:65rem;
+    background-color: black;
+}
+.card7{
+    height:30rem;
+    background-color: black;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.header{
+    background-color: transparent;
+    width:inherit;
+    height:5rem;
+   z-index: 1;
+ 
+}
+.wrapper{
+    background-color: transparent;
+    max-width:1480px;
+    margin: auto;
+    height:5rem;
+    align-items: center;
+    min-width:100px;
+    padding:0 50px;
+    opacity: 90%;
+}
+.logo{
+    background-color: transparent;
+    width:inherit;
+    height: inherit;
+    margin-right: auto;
+}
+.logo img{
+    height:inherit;     
+  
+}
+.sign{
+    background-color:transparent;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-end{
+    justify-content: space-evenly;
+}
+.buttonSubmit{
+    width:4rem;
+    height:1.3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #e50914;
+    border-radius:3px;
+    padding:3.5px;
+    cursor: pointer;
+}
+.buttonSubmit button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color:white;
+    cursor: pointer;
+    font-size:0.8rem;
+ 
+}
+.selectLanguage{
+    background-color: black;
+    width:4rem;
+    height:1.7rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     margin-inline-end:1vw;
+    border-radius: 4px;
+    border:1px solid gray;
+}
+.languageSwitch{
+    outline: none;
+    font-size:0.7rem;
+    border: 1px solid black;
+    width:4rem;
+    background-color: black;
+    color: white;
+    appearance: none;
+    padding:1px;
+    align-content: center;
+    cursor: pointer;
+}
+.selectLanguage:hover{
+    border:1px solid whitesmoke;
+}
+.formSearch{
+ background-color: transparent;
+ width:34rem;
+ }
+.formSearch input{
+    background-color:white;
+    height:3rem;
+    width:22rem;
+    outline: none;
+    border: none;
+    padding-left:10px;
+}
+.formSearch input:hover{
+    border: 1px solid lightblue;
+}
+.formSearch input::placeholder{
+    font-size:1rem;
+}
+.formSearch button:hover{
+    background-color: red;
+}
+.formSearch button{
+    width:12rem;
+    font-size:1rem;
+    color: white;
+    background-color: #e50914;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.contact{
+    height:4rem; 
+    width:52rem;
+    background-color: black;
+  justify-content: flex-end;
+}
+.lang{
+    width:52rem;
+    height:5rem;
+   justify-content: flex-start;
+   background-color: black;
+}
+.lang ul li{
+    list-style:none;
+    margin-top: 0.4rem;
+    color: gray;
+}
+.lang .selectLanguage{
+    height:3rem;
+    width:6rem;
+}
+.lang select{
+    height:2rem;
+    width:6rem;
+    font-size:0.9rem;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list li{
+     width:10rem;
+    margin-left:4rem;
+    margin-top: 0.8rem;
+}
+.list{
+    list-style-type:none;
+}
+.main{
+    background-color: black;
+     width:60rem;
+     font-size:1rem;
+  
+}
+ .list div{
+    background-color: black;
+    margin:0;
+    padding: 0;
+ 
+}
+.faq{
+    cursor: pointer;
+    background-color: #303030;;
+    width:45rem;
+    padding:2rem;
+    border: none;
+    outline: none;
+    text-align:left;
+    height:5rem;
+    font-size:1.4rem;
+    position: relative;
+    color:gainsboro;
+    display: flex;
+    justify-content: space-between;
+    appearance: none;
+   
+}
+.faq::before{
+    content: "+";
+    position: absolute;
+    right:15px;
+    font-size: 2rem;
+    background-color: #303030;
+    transform: translateY(-30%);
+}
+.listt .contentBx.active .faq::before{
+    content: "X";
+    position: absolute;
+    right:15px;
+    font-weight: bold;
+    background-color: #303030;
+    font-size: 1.2rem;
+    transform: translateY(-20%);
+}
+
+.listt .contentBx.active .ans{
+    background-color: #303030;
+    max-height:25rem;
+    visibility: visible;
+    transition: max-height 1s linear ;
+}
+
+   .listt{
+    list-style-type: none;
+    height:65rem;
+    
+   }
+   .listt li{
+    margin:5px;
+   overflow: hidden;
+   width:45rem;
+  background-color: black;
+   }
+.ans{
+    display: flex;
+    width:45rem;
+   font-size:1.4rem;
+    margin-top:3px;
+    color: white;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background-color: #303030;
+    position: relative;
+    visibility: hidden;
+   max-height: 0;
+  font-family: sans-serif;
+  transition: max-height 1s linear;
+}
+.ans span{
+    padding: 0 2rem;
+}
+
+@media only screen and (max-width:1201px)
+{
+    .contentCard2 h1{
+        font-size:2.5rem;
+    }
+    .contentCard2 h2{
+        font-size:1.5rem;
+    }
+    .contentCard2{
+         padding:0;
+     }
+     .icard2{
+        padding:0 50px;
+    }
+}
+@media only screen and (max-width:968px)
+{
+    .contentCard2 h1{
+        font-size:2.5rem;
+        text-align: center;
+    }
+    .contentCard2 h2{
+        font-size:1.5rem;
+        text-align: center;
+    }
+    .contentCard2{
+         padding:5px 10px;
+         text-align: center;
+         height: 10rem;
+         margin: 0;
+     }
+     .icard2{
+        padding:0;
+        flex-direction: column;
+    }  
+    .imageCard2{
+        height:22rem;
+    }
+    .innerCard2{
+        height:inherit;
+        margin-block-start: 0;
+    }
+    
+    .box{
+        width:18rem;
+        top:15rem;
+        padding:5px;
+        height:4.5rem;   
+    }
+    
+    .icon
+    {   
+        margin-top:1rem;
+        width: 2rem;
+        height:2rem;
+    }
+    .card4 img{
+        height:15.5rem;
+        }
+    .footer{
+        height:15rem; 
+        width:44rem;
+    }
+    .contact{
+        height:3.5rem; 
+        width:44rem;
+    }
+    .lang{
+        width:44rem;
+        height:4rem;
+    }
+    .lang ul li{
+        margin-top: 0.1rem;
+    }
+    .lang .selectLanguage{
+        height:3rem;
+        width:6rem;
+    }
+    .lang select{
+        height:2rem;
+        width:6rem;
+        font-size:0.9rem;
+    }
+    
+   .main{
+    width:50rem;
+    }
+    .contact{
+        width:42rem;
+    }
+    .lang{
+        width:42rem;
+    }
+    
+}
+@media only screen and (max-width:768px)
+{
+    .contentCard2 h1{
+        font-size:2.5rem;
+        text-align: center;
+    }
+    .contentCard2 h2{
+        font-size:1.5rem;
+        text-align: center;
+    }
+    .contentCard2{
+         padding:5px 10px;
+         text-align: center;
+         height: 10rem;
+         margin: 0;
+     }
+     .icard2{
+        padding:0;
+        flex-direction: column;
+    }  
+    .imageCard2{
+        height:22rem;
+    }
+    .innerCard2{
+        height:inherit;
+        margin-block-start: 0;
+    }
+    
+    .box{
+        width:18rem;
+        top:15rem;
+        padding:5px;
+        height:4.5rem;   
+    }
+    
+    .icon
+    {   
+        margin-top:1rem;
+        width: 2rem;
+        height:2rem;
+    }
+    .card4 img{
+        height:15.5rem;
+        
+    }
+    .footer{
+        height:15rem; 
+        width:34rem;
+    }
+    .contact{
+        height:3.5rem; 
+        width:40rem;
+    }
+    .lang{
+        width:40rem;
+        height:4rem;
+    }
+    .lang ul li{
+        margin-top: 0.1rem;
+    }
+    .lang .selectLanguage{
+        height:3rem;
+        width:6rem;
+    }
+    .lang select{
+        height:2rem;
+        width:6rem;
+        font-size:0.9rem;
+    } 
+    .main{
+        width:48rem;
+        }
+        .faq{
+           width:37rem;
+            padding:2rem;
+            height:4rem;
+            font-size:1.4rem;
+        }
+        .faq::before{
+            right:7px;
+            font-size: 2rem;
+            transform: translateY(-30%);
+        }
+        .listt .contentBx.active .faq::before{
+            right:10px;
+            font-size: 1.2rem;
+            transform: translateY(-20%);
+        }
+           .listt li{
+           width:37rem;
+           }
+        .ans{
+            width:37rem;
+           font-size:1.4rem;
+        }
+    }
+ @media only screen and (max-width:650px)and (min-width:440px)
+ {
+    .mainContent{
+        height:30rem;
+    }
+    
+    .mainContent h1:nth-child(1)
+    {
+      font-size:2.8rem;
+    }
+    .mainContent h1:nth-child(2)
+    {
+        font-size:2.8rem;
+    }
+    .mainContent h5
+    {
+      font-size:1.8rem;
+      margin-top:1rem;
+      font-weight: lighter;
+    }
+    .mainContent p
+    {
+      font-size:1.2rem;
+    }
+    .formSearch{
+        width:22rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+       .formSearch input{
+           height:3rem;
+           width:20rem;
+       }
+       .formSearch button{
+           width:10rem;
+           height:2.5rem;
+           font-size:1rem;
+           margin-top: 1rem;
+       }
+       .contentCard2 h1{
+        font-size:2.2rem;
+        text-align: center;
+    }
+    .contentCard2 h2{
+        font-size:1.2rem;
+        text-align: center;
+    }
+    .contentCard2{
+         padding:5px 10px;
+         text-align: center;
+        height: 10rem;
+         margin: 0;
+     }
+     .icard2{
+        padding:0;
+        flex-direction: column;
+    }  
+    .imageCard2{
+        height:22rem;
+    }
+    .innerCard2{
+        height:inherit;
+        margin-block-start: 0;
+    }
+    
+    .box{
+        width:18rem;
+        top:15rem;
+        padding:5px;
+        height:4.5rem;   
+    }
+    
+    .icon
+    {   
+        margin-top:1rem;
+        width: 2rem;
+        height:2rem;
+    }
+    .card4 img{
+        height:15.5rem;
+        
+    }
+    .main{
+        width:30rem;
+        }
+        .contact{
+            width:22rem;
+        }
+        .lang{
+            width:22rem;
+        }
+        .faq{
+            width:30rem;
+             padding:2rem;
+             height:4rem;
+             font-size:1.4rem;
+         }
+         .faq::before{
+             right:5px;
+             font-size: 2rem;
+             transform: translateY(-30%);
+         }
+         .listt .contentBx.active .faq::before{
+             right:5px;
+             font-size: 1.2rem;
+             transform: translateY(-20%);
+         }
+            .listt li{
+            width:30rem;
+            }
+         .ans{
+             width:30rem;
+            font-size:1.4rem;
+         }
+        
+ }
+ @media only screen and (max-width:439px)and (min-width:340px) 
+ {
+    .mainContent{
+        height:34rem;
+    }
+    
+    .mainContent h1:nth-child(1)
+    {
+      font-size:2.4rem;
+    }
+    .mainContent h1:nth-child(2)
+    {
+        font-size:2.4rem;
+    }
+    .mainContent h5
+    {
+      font-size:1.5rem;
+      margin-top:1rem;
+      font-weight: lighter;
+    }
+    .mainContent p
+    {
+      font-size:1rem;
+    }
+    .formSearch{
+        width:22rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+       .formSearch input{
+           height:3rem;
+           width:20rem;
+       }
+       .formSearch button{
+           width:10rem;
+           height:2.5rem;
+           font-size:1rem;
+           margin-top: 1rem;
+       }
+      
+    .buttonSubmit button{
+        font-size:0.7rem;
+        width:4.2rem;
+     
+    }
+    .contentCard2 h1{
+        font-size:1.9rem;
+        text-align: center;
+    }
+    .contentCard2 h2{
+        font-size:0.9rem;
+        text-align: center;
+    }
+    .contentCard2{
+         padding:5px 10px;
+         text-align: center;
+         height: 10rem;
+         margin: 0;
+     }
+     .icard2{
+        padding:0;
+        flex-direction: column;
+    }  
+    .imageCard2{
+        height:12rem;
+    }
+    .innerCard2{
+        height:inherit;
+        margin-block-start: 0;
+    }
+    
+    .box{
+        width:15rem;
+        top:7rem;
+        padding:5px;
+        height:3.5rem;   
+    }
+    
+    .icon
+    {   
+        margin-top:1rem;
+        width: 2rem;
+        height:2rem;
+    }
+    .card4 img{
+        height:10rem;
+    }
+    .card4 video{
+        margin-top:-0.8rem;
+    }
+    .main{
+        width:23rem;
+        }
+        .contact{
+            width:15rem;
+        }
+        .lang{
+            width:15rem;
+        }
+        .list li{
+            width:5rem;
+           margin-left:4rem;
+           margin-top: 0.8rem;
+       }
+       .faq{
+        width:22rem;
+         padding:2rem;
+         height:4rem;
+         font-size:1rem;
+     }
+     .faq::before{
+         right:4px;
+         font-size: 2rem;
+         transform: translateY(-30%);
+     }
+     .listt .contentBx.active .faq::before{
+         right:4px;
+         font-size: 1.2rem;
+         transform: translateY(-20%);
+     }
+        .listt li{
+        width:22rem;
+        }
+     .ans{
+         width:22rem;
+        font-size:1rem;
+     }
+ }
+ @media only screen and (max-width:340px)and (min-width:200px) 
+ {
+
+    .mainContent h1:nth-child(1)
+    {
+      font-size:2.1rem;
+    }
+    .mainContent h1:nth-child(2)
+    {
+        font-size:2.1rem;
+    }
+    .mainContent h5
+    {
+      font-size:1.1rem;
+      margin-top:1rem;
+      font-weight: lighter;
+    }
+    .mainContent p
+    {
+      font-size:0.8rem;
+    }
+    .formSearch{
+        width:12rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+       .formSearch input{
+           height:3rem;
+           width:12rem;
+       }
+       .formSearch button{
+           width:8rem;
+           height:2.5rem;
+           font-size:1rem;
+           margin-top: 1rem;
+       }
+      
+    .buttonSubmit button{
+        font-size:0.5rem;
+    }
+    .buttonSubmit {
+        width:2rem;
+    }
+    .wrapper{
+        padding:0;
+    }
+    .logo{
+        background-color: transparent;
+        width:inherit;
+        height: 4rem;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .logo img{
+        height:2.6rem;     
+      
+    }
+    .selectLanguage{
+        width:4rem;
+        height:1.7rem;
+    }
+    .languageSwitch{
+        width:2.3rem;
+        font-size:0.7rem;
+    }
+    .contentCard2 h1{
+        font-size:2rem;
+        text-align: center;
+    }
+    .contentCard2 h2{
+        font-size:1rem;
+        text-align: center;
+    }
+    .contentCard2{
+         padding:5px 10px;
+         text-align: center;
+         height: 10rem;
+         margin: 0;
+     }
+     .icard2{
+        padding:0;
+        flex-direction: column;
+    }  
+    .imageCard2{
+        height:12rem;
+    }
+    .innerCard2{
+        height:inherit;
+        margin-block-start: 0;
+    }
+    
+    .box{
+        width:15rem;
+        top:7rem;
+        padding:5px;
+        height:3.5rem;   
+    }
+    
+    .icon
+    {   
+        margin-top:1rem;
+        width: 2rem;
+        height:2rem;
+    }
+    .card4 img{
+        height:10rem;
+    }
+    .card4 video{
+        margin-top:-0.8rem;
+    }
+    .main{
+        width:18rem;
+        }
+        .contact{
+            width:10rem;
+        }
+        .lang{
+            width:10rem;
+        }
+        .list li{
+            width:4rem;
+           margin-left:4rem;
+           margin-top: 0.8rem;
+       }
+       .faq{
+        width:18rem;
+         padding:2rem;
+         height:4rem;
+         font-size:1rem;
+     }
+     .faq::before{
+         right:4px;
+         font-size: 2rem;
+         transform: translateY(-30%);
+     }
+     .listt .contentBx.active .faq::before{
+         right:4px;
+         font-size: 1.2rem;
+         transform: translateY(-20%);
+     }
+        .listt li{
+        width:18rem;
+        }
+     .ans{
+         width:18rem;
+        font-size:1rem;
+     }
+}
+
+
+
+
+
+
+
